@@ -16,7 +16,7 @@ SELECT name FROM animals WHERE name NOT IN ('Gabumon');
 
 SELECT name FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 
-BEGIN;
+Begin;
 UPDATE animals SET species='unspecified';
 SELECT * FROM animals;
 ROLLBACK;
@@ -26,7 +26,7 @@ UPDATE animals SET species='digimon' WHERE name LIKE '%mon';
 UPDATE animals SET species='pokemon' WHERE species IS NULL;
 COMMIT;
 
-BEGIN;
+BEGIN,
 DELETE FROM animals;
 ROLLBACK;
 
@@ -37,7 +37,6 @@ UPDATE animals SET weight_kg=-1*weight_kg;
 ROLLBACK TO dateOfBirth;
 UPDATE animals SET weight_kg=-1*weight_kg WHERE weight_kg<0;
 COMMIT; 
-
 
 SELECT COUNT(*) FROM animals;
 SELECT COUNT(*) FROM animals WHERE escape_attempts=0;
