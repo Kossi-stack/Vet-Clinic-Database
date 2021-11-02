@@ -15,16 +15,16 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 👤 **Kossi-Stack**
 
-- GitHub: [@githubhandle](https://github.com/Kossi-stack)
+- GitHub: [Kossi-Stack](https://github.com/Kossi-stack)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/kossi-stack)
+- LinkedIn: [Kossi-Stack](https://linkedin.com/in/kossi-stack)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Kossi-stack/Vet-Clinic-Database/issues).
 
 ## Show your support
 
